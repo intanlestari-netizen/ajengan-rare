@@ -1,24 +1,38 @@
-*.log
+# OS & Editor
 .DS_Store
+Thumbs.db
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+
+# Dependencies
+/node_modules
+/vendor
+
+# Environment & Config
 .env
+.env.*.local
 .env.backup
 .env.production
-.phpactor.json
-.phpunit.result.cache
-/.fleet
-/.idea
-/.nova
-/.phpunit.cache
-/.vscode
-/.zed
 /auth.json
-/node_modules
+
+# Cache & Logs
+*.log
+/.phpunit.cache
+/.phpunit.result.cache
+.phpactor.json
+
+# Laravel Specific
 /public/build
 /public/hot
 /public/storage
 /storage/*.key
 /storage/pail
-/vendor
+# (Opsional) jika ingin lebih aman, biasanya folder storage di-ignore hampir semuanya, 
+# kecuali file .gitignore di dalam folder storage itu sendiri.
+
+# VM
 Homestead.json
 Homestead.yaml
-Thumbs.db
