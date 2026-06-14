@@ -1,0 +1,45 @@
+body { margin: 0; padding: 0; overflow-x: hidden; font-family: 'Quicksand', sans-serif; }
+
+.hero-bg {
+    position: relative;
+    height: 100vh;
+    /* Gradasi Soft Blue */
+    background: linear-gradient(180deg, #A9D3FF 0%, #8EC5FF 50%, #D6ECFF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-focal-area {
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Efek Glassmorphism tipis */
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+}
+
+/* Bukit Hijau Pastel */
+.hills { position: absolute; bottom: 0; width: 100%; height: 250px; z-index: 2; }
+.hill { position: absolute; bottom: 0; width: 100%; background: #C8E6C9; border-radius: 100% 100% 0 0 / 50% 50% 0 0; }
+.hill-back { height: 150px; opacity: 0.6; }
+.hill-front { height: 120px; }
+
+/* Animasi Floating */
+.float-item { position: absolute; animation: float 6s ease-in-out infinite; }
+.veg1 { top: 20%; left: 10%; width: 80px; }
+.veg2 { top: 30%; right: 15%; width: 70px; }
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.cloud {
+    position: absolute;
+    background: white;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+.cloud1 { top: 10%; left: 20%; width: 150px; height: 60px; }
+.cloud2 { top: 15%; right: 20%; width: 120px; height: 50px; }
