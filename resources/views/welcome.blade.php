@@ -278,7 +278,9 @@
                     Ajengan Rare merupakan inovasi MPASI <em>ready-to-sip</em> berbahan dasar Jagung Gembal (Sorgum) sebagai solusi praktis pencegahan stunting dan pemberdayaan pangan lokal Buleleng. Kaya serat, protein, vitamin, dan mineral, Ajengan Rare hadir sebagai MPASI tinggi gizi, bebas gluten, tanpa pengawet, serta mudah dikonsumsi.
                 </p>
                 <div class="mt-8">
-                    <a href="tentang-ajengan-rare.html" class="px-8 py-3.5 bg-orange-600 hover:bg-orange-700 text-white uppercase tracking-wider rounded-full shadow-lg transition transform hover:-translate-y-0.5">Jelajahi</a>
+                   <a href="{{ url('/jelajahi') }}" class="px-8 py-3.5 bg-orange-600 hover:bg-orange-700 text-white uppercase tracking-wider rounded-full shadow-lg transition">
+    Jelajahi
+</a>
                 </div>
             </div>
         </div>
@@ -297,9 +299,9 @@
                 Ajengan Rare merupakan inovasi MPASI <em>ready-to-sip</em> berbahan dasar Jagung Gembal (Sorgum) sebagai solusi praktis pencegahan stunting dan pemberdayaan pangan lokal Buleleng. Kaya serat, protein, vitamin, dan mineral, Ajengan Rare hadir sebagai MPASI tinggi gizi, bebas gluten, tanpa pengawet, serta mudah dikonsumsi untuk mendukung tumbuh kembang anak secara optimal.
             </p>
 
-            <a href="tentang-ajengan-rare.html" class="px-8 py-2 bg-orange-600 text-white font-bold uppercase tracking-wider rounded-full shadow-lg transition hover:bg-orange-700 text-sm">
-                Jelajahi
-            </a>
+            <a href="{{ url('/jelajahi') }}" class="px-8 py-3.5 bg-orange-600 hover:bg-orange-700 text-white uppercase tracking-wider rounded-full shadow-lg transition">
+    Jelajahi
+</a>
         </div>
     </div>
 </section>
@@ -333,7 +335,7 @@
                 </p>
                 <div class="mt-8 flex flex-wrap gap-4 font-bold">
                     <a href="/resep" class="px-8 py-3.5 bg-emerald-700 hover:bg-emerald-800 text-white uppercase tracking-wider rounded-full shadow-lg shadow-emerald-700/30 transition transform hover:-translate-y-0.5 text-base">
-                        Lihat Kreasi Resep
+                       pelajari
                     </a>
                 </div>
             </div>
@@ -351,7 +353,7 @@
                 Proses pengolahan dilakukan tanpa pengawet dan penyedap buatan untuk menjaga kandungan gizi tetap optimal. Setelah itu, produk dikemas dalam kemasan food grade yang aman dan melalui kontrol kualitas sebelum didistribusikan kepada konsumen.
             </p>
             <a href="/resep" class="px-8 py-2 bg-emerald-700 text-white font-bold uppercase tracking-wider rounded-full shadow-lg transition hover:bg-emerald-800 text-sm">
-                Lihat Resep
+                Pelajari
             </a>
         </div>
     </div>
@@ -454,7 +456,7 @@
         <div class="grid grid-cols-4 gap-20">
     
             <!-- WhatsApp -->
-            <a href="https://wa.me/nomor-anda-disini" target="_blank" class="flex flex-col items-center group transition-all duration-500 hover:-translate-y-4">
+            <a href="https://wa.me/085739202022" target="_blank" class="flex flex-col items-center group transition-all duration-500 hover:-translate-y-4">
                 <div class="w-36 h-36 flex items-center justify-center mb-6">
                     <img src="{{ asset('image/whatsapp.png') }}" alt="WhatsApp" class="w-full h-full object-contain">
                 </div>
@@ -462,7 +464,7 @@
             </a>
 
             <!-- Instagram -->
-            <a href="https://instagram.com/username-anda" target="_blank" class="flex flex-col items-center group transition-all duration-500 hover:-translate-y-4">
+            <a href="https://instagram.com/mpasi.ajenganrare" target="_blank" class="flex flex-col items-center group transition-all duration-500 hover:-translate-y-4">
                 <div class="w-36 h-36 flex items-center justify-center mb-6">
                     <img src="{{ asset('image/instagram.png') }}" alt="Instagram" class="w-full h-full object-contain">
                 </div>
@@ -470,7 +472,7 @@
             </a>
 
             <!-- TikTok -->
-            <a href="https://tiktok.com/@username-anda" target="_blank" class="flex flex-col items-center group transition-all duration-500 hover:-translate-y-4">
+            <a href="https://tiktok.com/@mpasi.ajenganrare" target="_blank" class="flex flex-col items-center group transition-all duration-500 hover:-translate-y-4">
                 <div class="w-36 h-36 flex items-center justify-center mb-6">
                     <img src="{{ asset('image/tiktok.png') }}" alt="TikTok" class="w-full h-full object-contain">
                 </div>
@@ -478,7 +480,7 @@
             </a>
 
             <!-- Komunitas -->
-            <a href="link-komunitas-anda" target="_blank" class="flex flex-col items-center group transition-all duration-500 hover:-translate-y-4">
+            <a href="https://chat.whatsapp.com/GJH25pkq2qr7VHSSgjRr5B" target="_blank" class="flex flex-col items-center group transition-all duration-500 hover:-translate-y-4">
                 <div class="w-36 h-36 flex items-center justify-center mb-6">
                     <img src="{{ asset('image/komunitas.png') }}" alt="Komunitas" class="w-full h-full object-contain">
                 </div>
@@ -506,28 +508,28 @@
 
         <div class="grid grid-cols-2 gap-x-10 gap-y-12 w-full max-w-[320px] mx-auto">
     
-            <a href="https://wa.me/nomor-anda-disini" target="_blank" class="flex flex-col items-center group active:scale-95 transition-transform duration-300">
+            <a href="https://wa.me/085739202022" target="_blank" class="flex flex-col items-center group active:scale-95 transition-transform duration-300">
                 <div class="w-20 h-20 flex items-center justify-center mb-3">
                     <img src="{{ asset('image/whatsapp.png') }}" alt="WhatsApp" class="w-full h-full object-contain filter drop-shadow-[0_4px_6px_rgba(0,0,0,0.08)]">
                 </div>
                 <span class="font-black text-base text-[#5c3a21]">WhatsApp</span>
             </a>
 
-            <a href="https://instagram.com/username-anda" target="_blank" class="flex flex-col items-center group active:scale-95 transition-transform duration-300">
+            <a href="https://instagram.com/mpasi.ajenganrare" target="_blank" class="flex flex-col items-center group active:scale-95 transition-transform duration-300">
                 <div class="w-20 h-20 flex items-center justify-center mb-3">
                     <img src="{{ asset('image/instagram.png') }}" alt="Instagram" class="w-full h-full object-contain filter drop-shadow-[0_4px_6px_rgba(0,0,0,0.08)]">
                 </div>
                 <span class="font-black text-base text-[#5c3a21]">Instagram</span>
             </a>
 
-            <a href="https://tiktok.com/@username-anda" target="_blank" class="flex flex-col items-center group active:scale-95 transition-transform duration-300">
+            <a href="https://tiktok.com/@mpasi.ajenganrare" target="_blank" class="flex flex-col items-center group active:scale-95 transition-transform duration-300">
                 <div class="w-20 h-20 flex items-center justify-center mb-3">
                     <img src="{{ asset('image/tiktok.png') }}" alt="TikTok" class="w-full h-full object-contain filter drop-shadow-[0_4px_6px_rgba(0,0,0,0.08)]">
                 </div>
                 <span class="font-black text-base text-[#5c3a21]">TikTok</span>
             </a>
 
-            <a href="link-komunitas-anda" target="_blank" class="flex flex-col items-center group active:scale-95 transition-transform duration-300">
+            <a href="https://chat.whatsapp.com/GJH25pkq2qr7VHSSgjRr5B" target="_blank" class="flex flex-col items-center group active:scale-95 transition-transform duration-300">
                 <div class="w-20 h-20 flex items-center justify-center mb-3">
                     <img src="{{ asset('image/komunitas.png') }}" alt="Komunitas" class="w-full h-full object-contain filter drop-shadow-[0_4px_6px_rgba(0,0,0,0.08)]">
                 </div>
